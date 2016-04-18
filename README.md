@@ -5,7 +5,7 @@ Tested on Ubuntu 15.04
 
 ## Function
 - Crawls google.com for user-inputted search terms
-- Saves the first 20 results returned to mongodb database
+- Saves the first 20 results returned to MongoDB database
 - Visits each of the result pages and stores info related to search terms
 - Displays results to console
 
