@@ -13,8 +13,6 @@ Tested on Ubuntu 15.04
 googlecrawler requires Scrapy and pymongo in order to run:
 ```
 pip install Scrapy
-```
-```
 pip install pymongo
 ```
 You also need to have MongoDB installed. It can be installed on Ubuntu by running:
