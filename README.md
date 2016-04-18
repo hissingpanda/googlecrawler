@@ -1,29 +1,25 @@
-Development Assignment:
+# Googlecrawler:
+Python 2.7 script that crawls google using Scrapy and stores the results in MongoDB.
 
-·         Create a tool that crawls google for user-inputted search terms
+Tested on Ubuntu 15.04
 
-·         Save the first 20 results returned (to database)
+## Function
+- Crawls google for user-inputted search terms
+- Saves the first 20 results returned to mongodb database
+- Visits each of the result pages and stores info related to search terms
+- Displays results to console
 
-·         Visit each of the result pages and store any information you think could or would be useful
-
-·         Display the information in some way that will be useful for a user
-
-Uses Python 2.7
-
-Stores data in MongoDB
-
----
-
+## Installation
 - pip install Scrapy
 - pip install pymongo
-- instead: pip install googlecrawler?
-- set up mongodb database initially.. requirements.txt?
+- need to have mongodb installed
 	- apt-get install mongodb-server
 
+## Getting started
+```
+python googlecrawler.py csv
 
-- pip install googlecrawler
-	- looks into requirements.txt?
-
-- python googlecrawler.py csv
-- python googlecrawler.py python vs lua
-- tested on ubuntu 15.04
+```
+```
+python googlecrawler.py python vs lua
+```
