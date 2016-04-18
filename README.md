@@ -21,11 +21,11 @@ apt-get install mongodb-server
 ```
 
 ## Getting started
-googlecrawler is run by passing keywords into the script via command-line. Perform a search with a single keyword such as "csv":
+googlecrawler is run by passing keywords into the script via command-line. To perform a search with a single keyword such as "csv", you can do the following:
 ```
 python googlecrawler.py csv
 ```
-Multiple keywords are also accepted; you pass each keyword in as an individual argument. For instance, this is how to perform the search "python vs lua":
+Multiple keywords are also accepted; to do this pass each keyword in as an individual argument. For instance, this is how to perform the search "python vs lua":
 ```
 python googlecrawler.py python vs lua
 ```
